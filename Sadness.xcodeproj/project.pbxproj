@@ -15,6 +15,21 @@
 		B65770932291C40B0003FD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65770912291C40B0003FD02 /* LaunchScreen.storyboard */; };
 		B657709E2291C40B0003FD02 /* SadnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657709D2291C40B0003FD02 /* SadnessTests.swift */; };
 		B65770A92291C40B0003FD02 /* SadnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770A82291C40B0003FD02 /* SadnessUITests.swift */; };
+		B65770B72291CADE0003FD02 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770B62291CADE0003FD02 /* Emitter.swift */; };
+		B65770B82291CD250003FD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B657708F2291C40B0003FD02 /* Assets.xcassets */; };
+		B65770B92291CD260003FD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B657708F2291C40B0003FD02 /* Assets.xcassets */; };
+		B65770BC22927E690003FD02 /* rainSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B65770BB22927E690003FD02 /* rainSound.wav */; };
+		B65770BD22927E690003FD02 /* rainSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B65770BB22927E690003FD02 /* rainSound.wav */; };
+		B65770BE22927E690003FD02 /* rainSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B65770BB22927E690003FD02 /* rainSound.wav */; };
+		B65770C1229295280003FD02 /* LightEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770C0229295280003FD02 /* LightEmitter.swift */; };
+		B65770C2229295280003FD02 /* LightEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770C0229295280003FD02 /* LightEmitter.swift */; };
+		B65770C3229295280003FD02 /* LightEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770C0229295280003FD02 /* LightEmitter.swift */; };
+		B65770D72293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
+		B65770D82293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
+		B65770D92293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
+		B65770DC229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
+		B65770DD229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
+		B65770DE229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,11 @@
 		B65770A42291C40B0003FD02 /* SadnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SadnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65770A82291C40B0003FD02 /* SadnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadnessUITests.swift; sourceTree = "<group>"; };
 		B65770AA2291C40B0003FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65770B62291CADE0003FD02 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		B65770BB22927E690003FD02 /* rainSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rainSound.wav; path = ../../../../Downloads/rainSound.wav; sourceTree = "<group>"; };
+		B65770C0229295280003FD02 /* LightEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEmitter.swift; sourceTree = "<group>"; };
+		B65770D62293126F0003FD02 /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftCustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +119,11 @@
 		B65770842291C40A0003FD02 /* Sadness */ = {
 			isa = PBXGroup;
 			children = (
+				B65770DA229312910003FD02 /* CustomSegue */,
+				B65770D1229312230003FD02 /* View Controller */,
+				B65770BF229295190003FD02 /* Emitter */,
+				B65770BA2291D6B40003FD02 /* Audio */,
 				B65770852291C40A0003FD02 /* AppDelegate.swift */,
-				B65770872291C40A0003FD02 /* ViewController.swift */,
 				B65770892291C40A0003FD02 /* Main.storyboard */,
 				B657708F2291C40B0003FD02 /* Assets.xcassets */,
 				B65770912291C40B0003FD02 /* LaunchScreen.storyboard */,
@@ -126,6 +149,40 @@
 				B65770AA2291C40B0003FD02 /* Info.plist */,
 			);
 			path = SadnessUITests;
+			sourceTree = "<group>";
+		};
+		B65770BA2291D6B40003FD02 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B65770BB22927E690003FD02 /* rainSound.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B65770BF229295190003FD02 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				B65770B62291CADE0003FD02 /* Emitter.swift */,
+				B65770C0229295280003FD02 /* LightEmitter.swift */,
+			);
+			path = Emitter;
+			sourceTree = "<group>";
+		};
+		B65770D1229312230003FD02 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B65770872291C40A0003FD02 /* ViewController.swift */,
+				B65770D62293126F0003FD02 /* FamilyViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		B65770DA229312910003FD02 /* CustomSegue */ = {
+			isa = PBXGroup;
+			children = (
+				B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */,
+			);
+			path = CustomSegue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770BC22927E690003FD02 /* rainSound.wav in Resources */,
 				B65770932291C40B0003FD02 /* LaunchScreen.storyboard in Resources */,
 				B65770902291C40B0003FD02 /* Assets.xcassets in Resources */,
 				B657708B2291C40A0003FD02 /* Main.storyboard in Resources */,
@@ -242,6 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770BD22927E690003FD02 /* rainSound.wav in Resources */,
+				B65770B82291CD250003FD02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +309,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770BE22927E690003FD02 /* rainSound.wav in Resources */,
+				B65770B92291CD260003FD02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770D72293126F0003FD02 /* FamilyViewController.swift in Sources */,
+				B65770DC229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 				B65770882291C40A0003FD02 /* ViewController.swift in Sources */,
 				B657708E2291C40A0003FD02 /* Sadness.xcdatamodeld in Sources */,
+				B65770C1229295280003FD02 /* LightEmitter.swift in Sources */,
+				B65770B72291CADE0003FD02 /* Emitter.swift in Sources */,
 				B65770862291C40A0003FD02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770D82293126F0003FD02 /* FamilyViewController.swift in Sources */,
 				B657709E2291C40B0003FD02 /* SadnessTests.swift in Sources */,
+				B65770C2229295280003FD02 /* LightEmitter.swift in Sources */,
+				B65770DD229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +346,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65770D92293126F0003FD02 /* FamilyViewController.swift in Sources */,
 				B65770A92291C40B0003FD02 /* SadnessUITests.swift in Sources */,
+				B65770C3229295280003FD02 /* LightEmitter.swift in Sources */,
+				B65770DE229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
