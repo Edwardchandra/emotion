@@ -35,20 +35,6 @@ class ViewController: UIViewController {
         candleLightAnimation()
         candleLight.alpha = 0
      
-        swipeRightToLeft()
-    }
-    
-    func swipeRightToLeft(){
-        
-        let swipeRightToLeftGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: Selector(("showParentViewController")))
-        swipeRightToLeftGesture.direction = UISwipeGestureRecognizer.Direction.up
-    
-        self.view.addGestureRecognizer(swipeRightToLeftGesture)
-        
-    }
-    
-    func showParentViewController() {
-        self.performSegue(withIdentifier: "rightToLeftSegue", sender: self)
     }
     
     @IBAction func btnFlameAction(_ sender: UIButton) {

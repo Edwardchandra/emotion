@@ -27,9 +27,6 @@
 		B65770D72293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
 		B65770D82293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
 		B65770D92293126F0003FD02 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770D62293126F0003FD02 /* FamilyViewController.swift */; };
-		B65770DC229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
-		B65770DD229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
-		B65770DE229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +65,6 @@
 		B65770BB22927E690003FD02 /* rainSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rainSound.wav; path = ../../../../Downloads/rainSound.wav; sourceTree = "<group>"; };
 		B65770C0229295280003FD02 /* LightEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEmitter.swift; sourceTree = "<group>"; };
 		B65770D62293126F0003FD02 /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
-		B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftCustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +115,6 @@
 		B65770842291C40A0003FD02 /* Sadness */ = {
 			isa = PBXGroup;
 			children = (
-				B65770DA229312910003FD02 /* CustomSegue */,
 				B65770D1229312230003FD02 /* View Controller */,
 				B65770BF229295190003FD02 /* Emitter */,
 				B65770BA2291D6B40003FD02 /* Audio */,
@@ -175,14 +170,6 @@
 				B65770D62293126F0003FD02 /* FamilyViewController.swift */,
 			);
 			name = "View Controller";
-			sourceTree = "<group>";
-		};
-		B65770DA229312910003FD02 /* CustomSegue */ = {
-			isa = PBXGroup;
-			children = (
-				B65770DB229312B70003FD02 /* RightToLeftCustomSegue.swift */,
-			);
-			path = CustomSegue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B65770D72293126F0003FD02 /* FamilyViewController.swift in Sources */,
-				B65770DC229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 				B65770882291C40A0003FD02 /* ViewController.swift in Sources */,
 				B657708E2291C40A0003FD02 /* Sadness.xcdatamodeld in Sources */,
 				B65770C1229295280003FD02 /* LightEmitter.swift in Sources */,
@@ -338,7 +324,6 @@
 				B65770D82293126F0003FD02 /* FamilyViewController.swift in Sources */,
 				B657709E2291C40B0003FD02 /* SadnessTests.swift in Sources */,
 				B65770C2229295280003FD02 /* LightEmitter.swift in Sources */,
-				B65770DD229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +334,6 @@
 				B65770D92293126F0003FD02 /* FamilyViewController.swift in Sources */,
 				B65770A92291C40B0003FD02 /* SadnessUITests.swift in Sources */,
 				B65770C3229295280003FD02 /* LightEmitter.swift in Sources */,
-				B65770DE229312B70003FD02 /* RightToLeftCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
